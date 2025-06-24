@@ -1,3 +1,12 @@
+Here’s your **full updated `README.md` file in complete `.md` format** including:
+✔️ Detailed explanation of software testing
+✔️ Agile Development and TDD
+✔️ Test Type Classification Table
+✔️ Clean flow, no emojis, professional tone
+
+---
+
+````markdown
 # Software Testing Guide
 
 This repository is a comprehensive, step-by-step learning resource for **Software Testing** using both **Manual Testing** and **Selenium IDE-based Automation Testing**. The aim is to provide structured examples and practical testing scenarios to help learners understand the process, apply the knowledge, and build confidence in web testing.
@@ -6,10 +15,12 @@ This repository is a comprehensive, step-by-step learning resource for **Softwar
 
 ## Table of Contents
 - [Introduction to Software Testing](#introduction-to-software-testing)
+- [Agile Development & Test-Driven Development (TDD)](#agile-development--test-driven-development-tdd)
 - [Manual Testing Example - OpenCart](#manual-testing-example---opencart)
 - [Introduction to Selenium IDE](#introduction-to-selenium-ide)
 - [Selenium IDE Example - PHPTravels](#selenium-ide-example---phptravels)
 - [Selenium WebDriver Script](#selenium-webdriver-script)
+- [Testing Type Classification](#testing-type-classification)
 - [Project Structure](#project-structure)
 - [Additional Resources](#additional-resources)
 - [Conclusion](#conclusion)
@@ -18,26 +29,53 @@ This repository is a comprehensive, step-by-step learning resource for **Softwar
 
 ## Introduction to Software Testing
 
-Software testing is a critical part of the software development lifecycle that ensures the quality, reliability, and performance of software applications. It is the process of systematically verifying whether a product meets the expected requirements and identifying any defects before the product is released.
+Software testing is a systematic process that verifies whether the developed software meets the specified requirements and functions as expected. It helps identify bugs, errors, or missing requirements in the software.
 
 ### Why Software Testing is Important
-- Detects bugs and errors early, reducing development costs.
-- Ensures the software meets user requirements.
-- Improves product quality and enhances customer satisfaction.
-- Helps maintain the stability and security of the application.
+- Detects bugs and issues early, reducing cost and time.
+- Ensures the software meets user and business expectations.
+- Improves product stability, security, and performance.
+- Provides a better user experience.
 
 ### Benefits of Software Testing
-- **Improved Quality:** Ensures that software works as intended in different scenarios.
-- **Increased Confidence:** Builds trust in the application’s performance.
-- **Better User Experience:** Helps in delivering a smoother and more reliable product.
-- **Risk Mitigation:** Identifies critical failures before deployment.
+- **Improved Quality:** Ensures the software behaves correctly across different scenarios.
+- **User Confidence:** Builds trust in the stability and functionality of the product.
+- **Reduced Failures:** Identifies defects before deployment.
+- **Better Maintenance:** Provides long-term stability and reduces technical debt.
 
-### Scope for Continuous Improvement
-Software testing is an ongoing process that can always be refined by:
-- Writing more comprehensive test cases.
-- Including edge cases and complex user behaviors.
-- Updating tests as new features are added.
-- Incorporating advanced automation tools for efficiency.
+### Continuous Improvement in Testing
+- Adding edge cases and boundary value scenarios.
+- Updating test cases as the product evolves.
+- Using advanced automation frameworks for efficiency.
+- Increasing test coverage with both manual and automated tests.
+
+---
+
+## Agile Development & Test-Driven Development (TDD)
+
+### Agile Development
+Agile is an iterative approach to software development that emphasizes flexibility, collaboration, and customer feedback. It promotes continuous improvement through short development cycles known as sprints.
+
+#### Key Agile Principles:
+- Deliver working software frequently.
+- Welcome changing requirements, even late in development.
+- Close collaboration between developers, testers, and stakeholders.
+- Continuous attention to technical excellence and good design.
+
+### Test-Driven Development (TDD)
+Test-Driven Development is a software development practice where test cases are written **before** writing the actual code.
+
+#### TDD Cycle:
+1. **Write a failing test.**
+2. **Write minimal code to pass the test.**
+3. **Refactor the code to improve quality.**
+4. **Repeat the cycle.**
+
+#### Benefits of TDD:
+- Leads to better-designed, more maintainable code.
+- Ensures high test coverage.
+- Helps in finding bugs early.
+- Makes future code changes safer.
 
 ---
 
@@ -46,36 +84,36 @@ Software testing is an ongoing process that can always be refined by:
 ### Application Under Test:
 [OpenCart Demo Website](https://demo.opencart.com/)
 
-Manual testing is performed step-by-step by a human without using automation tools. It focuses on validating UI, navigation, input fields, and functional workflows.
+Manual testing is the process of testing software manually without automation tools. It involves executing test cases step-by-step to verify that the application works as expected.
 
 ### Test Case Document:
 - [ManualTesting_OpenCart.xlsx](./ManualTesting_OpenCart.xlsx)
 
-This file contains **25 carefully designed test cases** covering:
+This file contains **25 well-defined test cases** covering:
 - Homepage navigation
 - Product search
 - Add to cart functionality
 - Checkout process
-- Handling invalid inputs
+- Negative and failure scenarios
 
-The test cases are structured to verify real user scenarios on the OpenCart demo website.
+These test cases simulate real user interactions and check if the OpenCart demo site behaves correctly under various input and navigation flows.
 
 ---
 
 ## Introduction to Selenium IDE
 
-Selenium IDE is a browser-based automation tool that allows testers to record, edit, and playback interactions with web applications. It is especially useful for beginners as no programming is required.
+Selenium IDE is a browser-based automation tool that allows testers to record, edit, and replay test cases. It is suitable for quickly automating web testing without programming knowledge.
 
 ### Key Features:
 - Record and playback browser actions.
-- Export tests to Python, Java, and other languages.
+- Export tests to languages like Python, Java, and C#.
 - Build and execute test suites.
-- Simple, user-friendly interface.
+- Simple graphical interface.
 
-### Other Popular Automation Tools:
+### Other Automation Tools:
 - **Selenium WebDriver:** Script-based browser automation.
-- **Cypress:** Modern front-end testing framework.
-- **Katalon Studio:** All-in-one web, API, and mobile testing platform.
+- **Cypress:** Modern web testing framework.
+- **Katalon Studio:** End-to-end automation testing platform.
 
 ---
 
@@ -87,27 +125,45 @@ Selenium IDE is a browser-based automation tool that allows testers to record, e
 ### Selenium IDE Project:
 - [phptravels_flight_booking.side](./SeleniumIDEProjects/phptravels_flight_booking.side)
 
-This Selenium IDE project demonstrates a full test scenario:
+This project demonstrates an end-to-end automated flow:
 - Searching for flights
 - Navigating to hotel bookings
-- Completing a hotel booking form
+- Completing the booking form
 
 ### How to Run:
-1. Install the Selenium IDE browser extension (Chrome or Firefox).
-2. Load the `.side` project file in Selenium IDE.
-3. Execute the test by clicking **Play Current Test Case**.
+1. Install the Selenium IDE browser extension (available for Chrome and Firefox).
+2. Import the `.side` project file into Selenium IDE.
+3. Play the test case to see the automated steps in action.
 
-This practical example helps in understanding how Selenium IDE can be used for automating real-world user flows.
+This example helps visualize how Selenium IDE can quickly automate user workflows on web applications.
 
 ---
 
 ## Selenium WebDriver Script
 
-A Python Selenium WebDriver script is also provided for users who wish to go beyond Selenium IDE and explore code-based automation.
+For learners who wish to explore coding-based automation, this project also includes a Python Selenium WebDriver script:
 
 - [test_phptravels.py](./SeleniumWebDriverScripts/test_phptravels.py)
 
-This script automates the same booking process from the Selenium IDE project using Python and Selenium WebDriver, allowing for more detailed control, validation, and customization in the automation workflow.
+This script automates the same booking process as the Selenium IDE project but with more control and flexibility using Python code.
+
+---
+
+## Testing Type Classification
+
+| Testing Type         | OpenCart (Manual Testing) | PHPTravels (Selenium IDE Testing) |
+|----------------------|---------------------------|-----------------------------------|
+| Unit Testing         | ❌ Not Performed          | ❌ Not Performed                  |
+| Integration Testing  | ❌ Not Performed          | ❌ Not Performed                  |
+| System Testing       | ✅ Performed              | ✅ Performed                      |
+| Regression Testing   | ✅ If repeated            | ✅ If repeated                    |
+| Automation           | ❌ Manual                 | ✅ Automated                      |
+
+### Explanation:
+- **Unit Testing:** Testing individual components or functions in isolation. Not covered in this project.
+- **Integration Testing:** Testing the interaction between modules or systems. Not performed here.
+- **System Testing:** Testing the complete application workflow from start to finish. Both OpenCart and PHPTravels tests fall into this category.
+- **Regression Testing:** If the same test cases are rerun after code changes, they can serve as regression tests to ensure nothing is broken.
 
 ---
 
@@ -125,4 +181,34 @@ software-testing-guide/
 ├── Screenshots/                # (Optional) Screenshots of test execution steps
 ├── Resources/                  # Additional learning references and documentation
 │   └── Resources.md
+└── LICENSE                     # (Optional) License file
+````
+
+---
+
+## Additional Resources
+
+Refer to the [Resources.md](./Resources/Resources.md) file for hand-picked materials to help you dive deeper into software testing and Selenium.
+
+---
+
+## Conclusion
+
+This project is intended to serve as a hands-on learning guide for software testing. It provides practical examples using both manual and automation techniques with real-world web applications.
+
+Through this project, learners can:
+
+* Understand the step-by-step process of manual and automated testing.
+* Learn to write and execute manual test cases.
+* Gain exposure to Selenium IDE for quick automation.
+* Explore Python-based Selenium WebDriver scripts for more complex automation.
+
+This structured approach can help both beginners and intermediate testers build solid foundations and improve their testing skills.
+
+Contributions are welcome to expand this project with more test cases, advanced testing techniques, or additional tools.
+
+Thank you for exploring this project.
+
+```
+
 
