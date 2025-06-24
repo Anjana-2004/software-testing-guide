@@ -1,12 +1,4 @@
-Here’s your **full updated `README.md` file in complete `.md` format** including:
-✔️ Detailed explanation of software testing
-✔️ Agile Development and TDD
-✔️ Test Type Classification Table
-✔️ Clean flow, no emojis, professional tone
 
----
-
-````markdown
 # Software Testing Guide
 
 This repository is a comprehensive, step-by-step learning resource for **Software Testing** using both **Manual Testing** and **Selenium IDE-based Automation Testing**. The aim is to provide structured examples and practical testing scenarios to help learners understand the process, apply the knowledge, and build confidence in web testing.
