@@ -1,0 +1,365 @@
+{
+  "id": "05477417-a2da-4a9f-868f-e787153d283c",
+  "version": "2.0",
+  "name": "PHPTravels",
+  "url": "https://phptravels.net",
+  "tests": [{
+    "id": "3469e7d2-86c2-4050-9698-acf9c6e6a7f5",
+    "name": "PHPTravels",
+    "commands": [{
+      "id": "99b3d8ff-cba4-4e8e-9ca7-5beca15482bb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf6c3067-6ab4-4099-a547-6533e59d551f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1453x865",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "430082fa-9e93-44fc-b1d6-aa2e1b3b618a",
+      "comment": "",
+      "command": "click",
+      "target": "name=from",
+      "targets": [
+        ["name=from", "name"],
+        ["css=.ff", "css:finder"],
+        ["xpath=//input[@name='from']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2229214f-2314-42ef-ab43-8a4e99a4173e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex:nth-child(1) .d-inline-block",
+      "targets": [
+        ["css=.d-flex:nth-child(1) .d-inline-block", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div/div/div/div/div/div/small", "xpath:idRelative"],
+        ["xpath=//div/small", "xpath:position"],
+        ["xpath=//small[contains(.,'London Heathrow Airport')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b2c8427-7baa-4cb9-b195-81e8d7c4c3e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=to",
+      "targets": [
+        ["name=to", "name"],
+        ["css=.px-md-3", "css:finder"],
+        ["xpath=//input[@name='to']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9bf9506-cf13-41ec-8295-e68df448af2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex:nth-child(2) strong > small",
+      "targets": [
+        ["css=.d-flex:nth-child(2) strong > small", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div[2]/div[2]/div/div[2]/div/strong/small", "xpath:idRelative"],
+        ["xpath=//div[2]/div/strong/small", "xpath:position"],
+        ["xpath=//small[contains(.,'India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b391fe65-93e0-41ef-9851-3757f78411c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=departure",
+      "targets": [
+        ["id=departure", "id"],
+        ["name=depart", "name"],
+        ["css=#departure", "css:finder"],
+        ["xpath=//input[@id='departure']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9781ce-fbff-4b56-9fbe-4daea1096593",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker:nth-child(20) .new:nth-child(6)",
+      "targets": [
+        ["css=.datepicker:nth-child(20) .new:nth-child(6)", "css:finder"],
+        ["xpath=//body[@id='fadein']/div[7]/div/table/tbody/tr[6]/td[6]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/table/tbody/tr[6]/td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0cd5771-3f2e-4715-9ed8-9cf5555fcc3d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#flights-search > .c8LPF-icon > path",
+      "targets": [
+        ["css=#flights-search > .c8LPF-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e23f99-0dd6-4064-8117-5f5c67b8d28c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#flights-search > .c8LPF-icon > path",
+      "targets": [
+        ["css=#flights-search > .c8LPF-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "752bf1f5-da40-4882-aca5-4b7575253a08",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#flights-search > .c8LPF-icon > path",
+      "targets": [
+        ["css=#flights-search > .c8LPF-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a709433-c46d-4bf7-b92e-a688e2fa9d69",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.searches > .h6",
+      "targets": [
+        ["css=.searches > .h6", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/div[2]/ul/li/a/strong", "xpath:idRelative"],
+        ["xpath=//a/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "079de101-a585-437c-9e0d-842fa004cd5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searches > .h6",
+      "targets": [
+        ["css=.searches > .h6", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/div[2]/ul/li/a/strong", "xpath:idRelative"],
+        ["xpath=//a/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb5c52b4-1bcf-4005-b806-e1ce7750a4fc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.searches > .h6",
+      "targets": [
+        ["css=.searches > .h6", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/div[2]/ul/li/a/strong", "xpath:idRelative"],
+        ["xpath=//a/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebeebd46-835a-4ab3-a59c-337d8a006609",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-3 .dropdown-item",
+      "targets": [
+        ["css=.p-3 .dropdown-item", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/div[2]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/flights/lhr/del/oneway/economy/04-07-2025/1/0/0')]", "xpath:href"],
+        ["xpath=//li/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3b1dba4-2bde-4295-93d7-89a48c8ae76c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hotels",
+      "targets": [
+        ["linkText=Hotels", "linkText"],
+        ["css=li:nth-child(2) > .fw-light", "css:finder"],
+        ["xpath=//a[contains(text(),'Hotels')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://phptravels.net/hotels')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hotels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "419de48d-c7eb-41f6-82d0-8deb01582170",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(1) > .rounded-3 .w-100",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) > .rounded-3 .w-100", "css:finder"],
+        ["xpath=//img[@alt='hotel-img']", "xpath:img"],
+        ["xpath=//body[@id='fadein']/main/section[2]/div/div/div[2]/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a328602-7313-49e0-87ba-553dab92cc9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=adults",
+      "targets": [
+        ["id=adults", "id"],
+        ["name=adults", "name"],
+        ["css=#adults", "css:finder"],
+        ["xpath=//select[@id='adults']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div/div/div/div[2]/div/div[2]/div/form/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a7851f-a879-474e-a3a5-7303cbcd2c4e",
+      "comment": "",
+      "command": "select",
+      "target": "id=adults",
+      "targets": [],
+      "value": "label=6"
+    }, {
+      "id": "d4fa3a04-7e28-4e65-919d-b965056dc513",
+      "comment": "",
+      "command": "click",
+      "target": "css=#adults > option:nth-child(6)",
+      "targets": [
+        ["css=#adults > option:nth-child(6)", "css:finder"],
+        ["xpath=//option[@value='6']", "xpath:attributes"],
+        ["xpath=//select[@id='adults']/option[6]", "xpath:idRelative"],
+        ["xpath=//option[6]", "xpath:position"],
+        ["xpath=//option[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd691208-b10e-4124-8c9d-3a48e5933169",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ladda",
+      "targets": [
+        ["css=.ladda", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div/div/div/div[2]/div/div[2]/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f628a660-b4a3-4b09-85e3-0deb1bbcd8f1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rounded:nth-child(1) td > .btn",
+      "targets": [
+        ["css=.rounded:nth-child(1) td > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='rooms']/div/div/div[2]/div/div/div/table/tbody/tr/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Book Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adc981c1-5cab-4c14-bd81-33ea78be0650",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded:nth-child(1) td > .btn",
+      "targets": [
+        ["css=.rounded:nth-child(1) td > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='rooms']/div/div/div[2]/div/div/div/table/tbody/tr/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Book Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc5fd03-14a4-4b4c-87f6-8fd2c381827e",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-first-name",
+      "targets": [
+        ["id=p-first-name", "id"],
+        ["name=user[first_name]", "name"],
+        ["css=#p-first-name", "css:finder"],
+        ["xpath=//input[@id='p-first-name']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div[2]/form/section/div/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53a4fd6a-551f-4c58-aa8a-fbab9017b225",
+      "comment": "",
+      "command": "type",
+      "target": "id=p-first-name",
+      "targets": [
+        ["id=p-first-name", "id"],
+        ["name=user[first_name]", "name"],
+        ["css=#p-first-name", "css:finder"],
+        ["xpath=//input[@id='p-first-name']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div[2]/form/section/div/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anjana"
+    }, {
+      "id": "951fc959-37e0-406a-8c4e-05ead6ffde05",
+      "comment": "",
+      "command": "click",
+      "target": "id=agreechb",
+      "targets": [
+        ["id=agreechb", "id"],
+        ["css=#agreechb", "css:finder"],
+        ["xpath=//input[@id='agreechb']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div[2]/form/section/div/div/div/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb93f4a9-bed9-4a49-bc49-902e9495586d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=booking",
+      "targets": [
+        ["id=booking", "id"],
+        ["css=#booking", "css:finder"],
+        ["xpath=//button[@id='booking']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div[2]/form/section/div/div/div/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Booking Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3e4bcff-d04b-40d8-b512-8e42cff86104",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking",
+      "targets": [
+        ["id=booking", "id"],
+        ["css=#booking", "css:finder"],
+        ["xpath=//button[@id='booking']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div[2]/form/section/div/div/div/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Booking Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a181b448-f654-450f-bac8-8b247244f944",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=booking",
+      "targets": [
+        ["id=booking", "id"],
+        ["css=#booking", "css:finder"],
+        ["xpath=//button[@id='booking']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/main/div[2]/form/section/div/div/div/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Booking Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cf0e01bf-a142-406c-a6dd-95b25ac29457",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3469e7d2-86c2-4050-9698-acf9c6e6a7f5"]
+  }],
+  "urls": ["https://phptravels.net/"],
+  "plugins": []
+}
